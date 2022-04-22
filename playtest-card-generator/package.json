@@ -1,0 +1,21 @@
+{
+  "name": "viral-spiral-card-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset": "rm data.json && rm pages.json",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "canvas-txt": "^3.0.0",
+    "cli-progress": "^3.10.0",
+    "google-spreadsheet": "^3.2.0",
+    "pdfkit": "^0.13.0"
+  }
+}
